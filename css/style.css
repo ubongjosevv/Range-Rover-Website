@@ -1,0 +1,216 @@
+
+        *{
+          padding: 0  !important;
+          margin: 0 !important;
+          box-sizing: border-box !important;
+      }
+      html{
+         font-size:  62.5%;
+      }
+      a{
+        font-size:1.2rem !important;
+      }
+      .flexy > div{
+          flex-direction: column;
+          gap: 10px;
+          padding-left: 20px !important;
+          padding-block: 40px !important;
+      }
+      i{
+          font-size: 40px;
+      }
+      i:hover{
+          color: green;
+      }
+      .caro-text{
+          font-size: 2.8rem !important;
+          font-family:'Times New Roman', Times, serif!important;
+          font-weight: 500;
+          color: rgb(0, 90, 0);
+          text-align: left;
+      }
+      .caro-text>div >h4{
+          font-size: 1.8rem !important;
+          font-family:'Times New Roman', Times, serif!important;
+          font-weight: 500;
+          color: rgb(70, 70, 70);
+          text-align: left;
+      }
+      .active h4{
+          margin-bottom: 400px;
+          
+      }
+      .truee{
+        background: url("./image/landy.jpg") no-repeat center center/cover;
+          padding: 9rem 7rem !important;
+          
+      }
+      .true-its{
+          font-size: 3.2rem !important;
+          font-family:'Times New Roman', Times, serif!important;
+          font-weight: 500;
+          color: white;
+          max-width: 850px;
+        }
+        
+    
+        .offcanvas-body li a{
+          color: rgb(210, 210, 210) !important;
+          font-size: 3rem !important;
+          font-weight: 600 !important;
+          font-family: 'Times New Roman', Times, serif !important;
+          
+          
+        }
+        .offcanvas-body li:hover{
+          border: none !important;
+          
+        }
+        .offcanvas-body li a:hover{
+          color: white !important;
+        }
+        /* <!-- CARDS --> */
+   
+            .colty h5{
+              font-size: 2rem !important;
+              font-weight: 600 !important;
+              
+          }
+          .colty .card-body{
+            display: grid;
+              gap: 10px !important;
+              margin-top: 20px !important;
+          } 
+          .colty p{
+            font-size: 1.5rem !important;
+            font-weight: 500 !important;
+            color: rgb(112, 112, 112);
+
+          }
+          
+
+          /* Range rover se */
+      
+          ul li{
+                list-style: none;
+                padding-bottom: 20px !important;
+                font-size: 1.2rem;
+                font-weight: 700;
+              }
+              ul li:hover{
+                border-bottom: 4px solid rgb(1, 26, 1);
+            }
+
+            /* <!-- VIEW WLPT FIGURES --> */
+           
+            .statements > p{
+              font-size: 1.2rem !important;
+              font-weight: 500;
+                color: rgb(95, 95, 95);
+                line-height: 20px;
+                
+                
+              }
+              /* <!-- style for this footer gray --> */
+                 .getty{
+                  color: white !important;
+                 }
+                  .getty .card{
+                      background-color: transparent !important;
+                      border: none !important;
+                    }
+                  .getty h5 {
+                      font-size: 1.3rem !important;
+                      font-weight: 500 !important;
+                    }
+                  .getty .card-title{
+                    padding-bottom: 10px !important;
+                  }
+                  /* .getty p a{
+                    text-decoration: none;
+                      color: white;
+                      font-size: 1rem !important;
+                      font-weight: 600 !important;
+                    }
+                   */
+                   .getty a{
+                     text-decoration: none;
+                     color: white;
+                      font-size: 1rem !important;
+                      font-weight: 600 !important;
+                  }
+                  .getty .card-text{
+                    display: flex;
+                      flex-direction: column;
+                      gap: 10px;
+                    }
+                  
+                  /* linky */
+                    .linky a{
+                      text-decoration: none !important;
+                      color: black !important;
+                      font-weight: 600 !important;
+                    }
+
+
+
+                    .footnav a:hover{
+                     text-decoration: underline !important;
+                  }
+                  /* <!-- LAST FOOTER --> */
+                
+                    .last-footer{
+                      display: grid;
+                      gap: 10px;
+                    }
+                    .last-footer h4{
+                      font-size: 1.5rem !important;
+                      font-weight: 500 !important;
+                    }
+                    .last-footer p{
+                      
+                      font-size: 1.1rem !important;
+                      font-weight: 500 !important;
+                    }
+                    strong{
+                      font-weight: 700 !important;
+                    }
+              
+
+                    .sv .card{
+                      background-color: transparent !important;
+                      border: none !important;
+                    }
+
+                    .buttoning > div:hover{
+                      border: 2px solid black !important;
+                      color: black !important;
+                      background-color: transparent !important;
+                    }
+
+                    @media screen and (max-width:575px) {
+                      html{
+                      font-size: 42% !important;
+                    }
+                    .flexy >div{
+                      border: none !important;
+                      flex-direction:row !important;
+                      gap: 40px;
+                      height: 80px;
+                      align-items: center;
+                   
+
+                    }
+                    .flexy >div:hover{
+                   
+                      border-block: 2px solid black !important;
+                    color: rgb(1, 80, 1) !important;
+
+                    }
+                    
+                  
+                  }
+          
+          
+   
+        
