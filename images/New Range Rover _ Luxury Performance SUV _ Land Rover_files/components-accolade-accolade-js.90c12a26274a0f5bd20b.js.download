@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{57:function(e,s,t){"use strict";t.r(s),t.d(s,"default",(function(){return c}));class c{constructor(e){this.el=e,this.init()}init(){const e=this.el.querySelector("#bgimagevalue").value;this.el.style.backgroundImage=`url(${e})`,e&&"none"!==e&&$(this.el.closest(".cmp-carousel")).addClass("cmp-accolades__bg")}}}}]);
